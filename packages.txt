@@ -1,0 +1,15 @@
+express => web framework to create routes
+mongoose => to work with database
+connect-mongo => to store our sessions in database, so when we reset the sserver, we don't get logged out
+express-session => sessions and cookies
+express-handlebars => for templates
+dotenv => for config
+method-override => allows us to use PUT and DELETE
+moment => to format dates
+morgan => for logging
+passport => for authentication
+passport-google-oauth20 => for google sign-in
+
+dev dependencies
+nodemon => contiuously watch our server
+cross-env => for global env
