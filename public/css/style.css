@@ -1,22 +1,30 @@
 p {
     margin: 10px 0 !important;
-  }
-  
-  .login-container {
+}
+
+.login-container {
     width: 400px;
     margin-top: 50px;
     text-align: center;
-  }
-  
-  .fa-small {
+}
+
+.fa-small {
     font-size: 16px !important;
-  }
-  
-  .btn-float {
+}
+
+.btn-float {
     float: left;
     margin-right: 10px;
-  }
-  
-  .img-small {
+}
+
+.img-small {
     width: 180px;
-  }
+}
+
+nav {
+    background: linear-gradient(
+        45deg,
+        rgba(120, 9, 208, 0.729) 0%,
+        rgba(247, 118, 4, 0.9) 100%
+    );
+}
