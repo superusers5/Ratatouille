@@ -5,7 +5,7 @@ module.exports = {
         return moment(date).format(format);
     },
     stripTags: function (input) {
-        return input.replace(/<(?:.|\n)*?>/gm, "");
+        return input.replace(/&nbsp;|<(?:.|\n)*?>/gm, "");
     },
     select: function (selected, options) {
         return options
