@@ -315,10 +315,10 @@ iframe {
     transition: all 0.4s;
 }
 
-.btn-google {
+/* .btn-google {
     color: #555555;
     background-color: #fff;
-}
+} */
 
 .btn-google img {
     width: 30px;
@@ -501,7 +501,6 @@ iframe {
 
 .alert-validate::after {
     content: "\f12a";
-    font-family: FontAwesome;
     display: block;
     position: absolute;
     color: #c80000;
