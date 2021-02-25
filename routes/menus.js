@@ -102,14 +102,10 @@ router.put("/:id", ensureAuth, async (req, res) => {
         if (menu.user != req.user.id) {
             res.redirect("/menus");
         } else {
-            menu = await Menu.findOneAndUpdate(
-                { _id: req.params.id },
-                req.body,
-                {
-                    new: true,
-                    runValidators: true,
-                }
-            );
+            await Menu.findOneAndUpdate({ _id: req.params.id }, req.body, {
+                new: true,
+                runValidators: true,
+            });
 
             res.redirect("/dashboard");
         }
